@@ -38,10 +38,10 @@ const Home = (props) => {
       setFadeOutText1(true);
     }, 1000);
 
-    // Start the fade-in effect for Text 2 after 3 seconds
+    // Start the fade-in effect for Text 2 after 0.5 seconds. (after 3 seconds if text 1 is used)
     const timeout2 = setTimeout(() => {
       setFadeInText2(true);
-    }, 3000);
+    }, 500);
 
     const typingInterval = 100; // Interval between typing each character
     let index = 0;
@@ -191,7 +191,7 @@ const Home = (props) => {
 
       </section>
       <section className="home-hero">
-      <div style={{fontWeight:"100"}} className={`fade-out ${fadeOutText1 ? 'hidden': ''}`}>
+      {/* <div style={{fontWeight:"100"}} className={`fade-out ${fadeOutText1 ? 'hidden': ''}`}>
             When will I get married ?</div>
         
         
@@ -199,7 +199,7 @@ const Home = (props) => {
             Will I get a job this year ?</div>
           
           <div style={{fontWeight:"100"}}className={`fade-out ${fadeOutText1 ? 'hidden' : ''}`}>
-           Suggest a time to register my business</div>
+           Suggest a time to register my business</div> */}
        
         <div className="home-heading">
         {/* <h1  style={{fontFamily:"serif"}} className={`fade-in ${fadeText2 ? 'home-header' : 'hidden'}`}>Ask Zodi</h1>
