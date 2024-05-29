@@ -2,7 +2,7 @@
   "name": "zodi-ai",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://dwarum.github.io/Zodi-AI",
+  "homepage": "https://dwarum.github.io",
   "dependencies": {
     "dangerous-html": "0.1.13",
     "prop-types": "15.7.2",

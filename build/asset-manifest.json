@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Zodi-AI/static/css/main.63e3d8c6.css",
+    "main.js": "/Zodi-AI/static/js/main.e854aa87.js",
+    "index.html": "/Zodi-AI/index.html",
+    "main.63e3d8c6.css.map": "/Zodi-AI/static/css/main.63e3d8c6.css.map",
+    "main.e854aa87.js.map": "/Zodi-AI/static/js/main.e854aa87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63e3d8c6.css",
+    "static/js/main.e854aa87.js"
+  ]
+}
